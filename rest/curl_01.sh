@@ -14,4 +14,7 @@ curl $HOST:$PORT/_aliases?pretty
 # 4. Show indices in human readable (non-JSON) format
 curl $HOST:$PORT/_cat/indices
 
+# 5. show an index
+curl $HOST:$PORT/my-index
+
 
