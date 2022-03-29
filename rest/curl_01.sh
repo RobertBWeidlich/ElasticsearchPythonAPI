@@ -15,4 +15,7 @@ curl $HOST:$PORT/_aliases?pretty
 curl $HOST:$PORT/_cat/aliases
 curl $HOST:$PORT/_cat/indices
 
+# 5. show an index
+curl $HOST:$PORT/my-index
+
 
